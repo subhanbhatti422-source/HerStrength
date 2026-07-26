@@ -1,0 +1,118 @@
+.Testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  overflow: hidden;
+}
+
+.testimonial-heading {
+  font-family: five;
+  font-size: 45px;
+  font-weight: 300;
+  color: #272727;
+  text-align: center;
+  margin-top: 16px;
+  background-color: transparent;
+}
+
+.testimonial-heading span {
+  font-family: four;
+  color: #9C6349;
+  background-color: transparent;
+}
+
+.testimonial-sub {
+  font-family: second;
+  font-size: 15px;
+  color: #5c5858;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+.testimonial-wrapper {
+  width: 100vw;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.testimonial-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+}
+
+.track-right {
+  animation: scrollRight 30s linear infinite;
+}
+
+.track-left {
+  animation: scrollLeft 30s linear infinite;
+}
+
+/* Review card */
+.review-card {
+  background-color: white;
+  border: 1px solid rgba(228, 221, 221, 0.6);
+  border-radius: 20px;
+  padding: 28px;
+  width: 300px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.review-stars {
+  color: #869E4D;
+  font-size: 18px;
+  background-color: transparent;
+  letter-spacing: 2px;
+}
+
+.review-text {
+  font-family: second;
+  font-size: 14px;
+  color: #5c5858;
+  line-height: 22px;
+  background-color: transparent;
+}
+
+.review-person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: transparent;
+}
+
+.review-person img {
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: none;
+}
+
+.review-person b {
+  font-family: five;
+  font-size: 15px;
+  color: #272727;
+  background-color: transparent;
+}
+
+.review-person p {
+  font-family: second;
+  font-size: 13px;
+  color: #5c5858;
+  background-color: transparent;
+}
+
+.review-person div {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+

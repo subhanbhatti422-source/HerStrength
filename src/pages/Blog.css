@@ -1,0 +1,213 @@
+.Blog-Section {
+  padding: 150px 60px 60px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.driven-badge {
+  max-width: 170px;
+  margin: auto;
+}
+
+.blog-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+.blog-heading {
+  font-family: five;
+  font-size: 60px;
+  font-weight: 300;
+  color: #272727;
+  margin-top: 12px;
+  background-color: transparent;
+}
+
+.blog-heading span {
+  font-family: four;
+  color: #9C6349;
+  background-color: transparent;
+}
+
+.blog-header p {
+  font-size: 19px;
+  color: #494646c0;
+  margin-top: 20px;
+  font-family: third;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.blog-btn {
+  background-color: #9C6349;
+  color: white;
+  border: none;
+  padding: 14px 18px;
+  border-radius: 100px;
+  font-family: six;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.blog-btn:hover {
+  background-color: #B47A5F;
+}
+
+.blog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: transparent;
+}
+
+.blog-card {
+  flex: 1;
+  min-width: 280px;
+  background-color: white;
+  border: 1px solid rgba(228, 221, 221, 0.6);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 24px;
+}
+
+.blog-img {
+  position: relative;
+  height: 210px;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-img1 {
+  background-image: url(https://framerusercontent.com/images/UIM5QQ70plrjLoloMduO12h0UCo.jpg?scale-down-to=512&width=1920&height=1200%20512w,https://framerusercontent.com/images/UIM5QQ70plrjLoloMduO12h0UCo.jpg?scale-down-to=1024&width=1920&height=1200%201024w,https://framerusercontent.com/images/UIM5QQ70plrjLoloMduO12h0UCo.jpg?width=1920&height=1200%201920w);
+}
+
+.blog-img2 {
+  background-image: url(https://framerusercontent.com/images/ygoJl2pvLzD8KGY9rkpcRiTABec.jpg?scale-down-to=512&width=1920&height=1200);
+}
+
+.blog-img3 {
+  background-image: url(https://framerusercontent.com/images/gonzS6HTnj7BGbW2RXbP777bcsc.jpg?scale-down-to=512&width=1920&height=1200);
+}
+
+.blog-img4 {
+  background-image: url(https://framerusercontent.com/images/olp5SgigPRW0MajUoDHNfCnJ3I.jpg?scale-down-to=512&width=1920&height=1200%20512w,https://framerusercontent.com/images/olp5SgigPRW0MajUoDHNfCnJ3I.jpg?scale-down-to=1024&width=1920&height=1200%201024w,https://framerusercontent.com/images/olp5SgigPRW0MajUoDHNfCnJ3I.jpg?width=1920&height=1200%201920w);
+}
+
+.blog-img5 {
+  background-image: url(https://framerusercontent.com/images/KSoUmgisLV5vXqyBj28i3zVqg.jpg?scale-down-to=512&width=1920&height=1200);
+}
+
+.blog-img6 {
+  background-image: url(https://framerusercontent.com/images/8bWX2h30Me2ZTu8vwiYe7j1G7aw.jpg?scale-down-to=512&width=1920&height=1200);
+}
+
+.blog-tag {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background-color: white;
+  border-radius: 100px;
+  padding: 4px 14px;
+  font-family: second;
+  font-size: 13px;
+  color: #272727;
+}
+
+.blog-card h3 {
+  font-family: five;
+  font-size: 17px;
+  font-weight: 400;
+  color: #272727;
+  padding: 0 20px;
+  line-height: 26px;
+  background-color: transparent;
+}
+
+.blog-card p {
+  font-family: second;
+  font-size: 13px;
+  color: #5c5858;
+  padding: 0 20px;
+  background-color: transparent;
+}
+
+/* ==============================================
+   RESPONSIVE
+============================================== */
+
+@media (max-width: 1024px) {
+  .Blog-Section {
+    padding: 120px 40px 50px;
+  }
+
+  .blog-heading {
+    font-size: 48px;
+  }
+
+  .blog-header p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Blog-Section {
+    padding: 100px 24px 40px;
+  }
+
+  .blog-heading {
+    font-size: 36px;
+  }
+
+  .blog-header p {
+    font-size: 16px;
+  }
+
+  .blog-cards {
+    flex-direction: column;
+  }
+
+  .blog-card {
+    min-width: unset;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Blog-Section {
+    padding: 90px 16px 32px;
+  }
+
+  .blog-heading {
+    font-size: 28px;
+  }
+
+  .blog-header p {
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+
+  .blog-img {
+    height: 180px;
+  }
+
+  .blog-card h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .blog-btn {
+    padding: 12px 16px;
+    font-size: 13px;
+  }
+}

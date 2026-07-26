@@ -1,0 +1,1948 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #FCFAF7;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+
+
+
+.Fitness-Studio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.Stronger {
+  background-color: #FAF5F0;
+  color: #000000;
+  width: 182.969px;
+  height: 32px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(110, 107, 107, 0.274);
+  gap: 4px;
+  text-align: center;
+}
+
+.Stronger img {
+  height: 15px;
+  width: auto;
+}
+
+.Stronger p {
+  color: #4A4A4C;
+  font-size: 13px;
+  font-family: second;
+}
+
+.Fitness h1 {
+  font-size: 64px;
+  font-family: five;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Fitness span {
+  color: #9C6349;
+  font-family: four;
+}
+
+.Fitness h1 img {
+  height: 70px;
+  width: 140px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.Fitness-p p {
+  font-size: 18px;
+  color: #5c5858;
+  font-family: second;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 26px;
+}
+
+.fitness-btn {
+  text-align: center;
+}
+
+.fitness-btn button {
+  color: white;
+  border: none;
+  width: 210px;
+  height: 50px;
+  transition: all 0.3s ease-in;
+  border-radius: 100px;
+  font-family: six;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+  background-color: rgb(156, 99, 73);
+}
+
+.fitness-btn button:hover {
+  background-color: #B47A5F;
+}
+
+.fitness-btn button img {
+  width: 12px;
+  height: auto;
+  display: inline-block;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease;
+  padding-left: 4px;
+  background-color: transparent;
+}
+
+.fitness-btn button:hover img {
+  transform: rotate(43deg);
+}
+
+.small-reviews {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 70px;
+}
+
+.small-reviews img {
+  border-radius: 100px;
+  width: 46px;
+  border: 2px solid white;
+  margin-left: -10px;
+}
+
+.four-circle-image {
+  display: flex;
+}
+
+.four-star {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.four-star b {
+  font-family: second;
+}
+
+.four-star svg {
+  width: 24px;
+  height: 24px;
+}
+
+.stars p {
+  color: #4A4A4C;
+  font-family: second;
+  margin-top: 1px;
+}
+
+
+
+.main-image {
+  background-image: url(../assets/images/image15.jpg);
+  height: 100vh;
+  background-position: center;
+  margin-top: 120px;
+  background-size: cover;
+}
+
+
+
+.only-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.logo-p img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.logo-p h2 {
+  font-size: 48px;
+  font-weight: 200;
+  font-family: five;
+  color: #272727;
+  text-align: center;
+}
+
+.logo-p h2 span {
+  font-size: 48px;
+  font-family: four;
+  color: #bb8871;
+}
+
+.logo-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.four-reviews-box {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.Satisfied-Clients,
+.Average-Rating,
+.Years-of-Experience,
+.Guaranteed-Results {
+  text-align: center;
+  border: 1px solid rgba(177, 177, 177, 0.452);
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.counter-box {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  background-color: transparent;
+}
+
+.Satisfied-Clients h2,
+.Average-Rating h2,
+.Years-of-Experience h2,
+.Guaranteed-Results h2 {
+  font-size: 45px;
+  color: #bb8871;
+  font-family: five;
+  background-color: transparent;
+}
+
+.Satisfied-Clients p,
+.Average-Rating p,
+.Years-of-Experience p,
+.Guaranteed-Results p {
+  font-size: 15px;
+  color: #5c5858;
+  font-family: six;
+}
+
+
+
+
+.Our-Programs {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Stronger2 {
+  background-color: #FAF5F0;
+  color: #000000;
+  width: 130px;
+  height: 32px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(153, 150, 150, 0.274);
+  gap: 4px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 160px;
+  margin-left: 50px;
+}
+
+.Stronger2 img {
+  height: 15px;
+  width: auto;
+}
+
+.Stronger2 p {
+  color: #4A4A4C;
+  font-size: 13px;
+  font-family: second;
+}
+
+.Strength-p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 90px;
+  margin-left: 50px;
+}
+
+.Strength-p p {
+  font-family: five;
+  font-size: 48px;
+}
+
+.Strength-p p span {
+  font-family: four;
+  color: #9C6349;
+}
+
+.left-right-arrow {
+  display: flex;
+  gap: 20px;
+}
+
+.left-right-arrow img {
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+.Strength-box {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  margin-top: 30px;
+}
+
+.Nutrition-box1,
+.Nutrition-box2,
+.Nutrition-box3,
+.Nutrition-box4,
+.Nutrition-box5,
+.Nutrition-box6 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  border-radius: 30px;
+  width: 600px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.Nutrition-box1 { background-image: url(../assets/images/image17.jpg); }
+.Nutrition-box2 { background-image: url(../assets/images/image27.jpg); }
+.Nutrition-box3 { background-image: url(../assets/images/image26.jpg); }
+.Nutrition-box4 { background-image: url(../assets/images/image10.jpg); }
+.Nutrition-box5 { background-image: url(../assets/images/image18.jpg); }
+.Nutrition-box6 { background-image: url(../assets/images/image14.jpg); }
+
+.card-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: white;
+  border-radius: 16px;
+  height: auto;
+  min-height: 100px;
+  padding: 20px 25px;
+}
+
+.card-overlay h3 {
+  font-family: five;
+  font-size: 28px;
+  color: #272727;
+  font-weight: 400;
+  margin-bottom: 8px;
+  background-color: transparent;
+}
+
+.card-overlay p {
+  font-family: second;
+  font-size: 14px;
+  color: #5c5858;
+  line-height: 21px;
+  background-color: transparent;
+}
+
+
+
+.Meet-Founder {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: auto;
+  max-width: 1100px;
+  margin-top: 100px;
+  padding: 0 20px;
+}
+
+.founder-image {
+  flex-shrink: 0;
+}
+
+.founder-image img {
+  width: 400px;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: none;
+}
+
+.founder-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 20px 30px;
+  border: 1px solid rgba(39, 39, 39, 0.171);
+  border-radius: 20px;
+}
+
+.driven-badge {
+  background-color: #FAF5F0;
+  border: 1px solid rgba(110, 107, 107, 0.2);
+  border-radius: 100px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-family: second;
+  color: #4A4A4C;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.driven-badge span {
+  color: #869E4D;
+  background-color: transparent;
+}
+
+.founder-content h2 {
+  font-family: five;
+  font-size: 43px;
+  font-weight: 300;
+  color: #272727;
+  background-color: transparent;
+}
+
+.founder-content h2 span {
+  font-family: four;
+  color: #9C6349;
+  background-color: transparent;
+}
+
+.founder-desc {
+  font-family: second;
+  font-size: 16px;
+  color: #5c5858;
+  line-height: 27px;
+  background-color: transparent;
+}
+
+.quick-facts-title {
+  font-family: five;
+  font-size: 20px;
+  color: #272727;
+  background-color: transparent;
+}
+
+.quick-facts {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: transparent;
+}
+
+.quick-facts li {
+  font-family: second;
+  font-size: 16px;
+  color: #5c5858;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+}
+
+.quick-facts li span {
+  color: #869E4D;
+  background-color: transparent;
+}
+
+.founder-btn {
+  background-color: #9C6349;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  margin-top: 10px;
+  border-radius: 100px;
+  font-family: six;
+  font-size: 14px;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+.founder-btn:hover {
+  background-color: #B47A5F;
+}
+
+
+
+
+.Transformations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.transform-heading {
+  font-family: five;
+  font-size: 48px;
+  font-weight: 300;
+  color: #272727;
+  text-align: center;
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.transform-heading span {
+  font-family: four;
+  color: #9C6349;
+  background-color: transparent;
+}
+
+.transform-desc {
+  font-family: second;
+  font-size: 17px;
+  color: #5c5858;
+  text-align: center;
+  line-height: 26px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+.marquee-wrapper {
+  width: 100vw;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+}
+
+.marquee-track img {
+  height: 310px;
+  width: 360px;
+  object-fit: cover;
+  border-radius: 16px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+}
+
+.marquee-right {
+  animation: scrollRight 40s linear infinite;
+}
+
+.marquee-left {
+  animation: scrollLeft 40s linear infinite;
+}
+
+@keyframes scrollRight {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+@keyframes scrollLeft {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+
+
+
+
+.Why-Choose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 60px;
+  max-width: 1000px;
+  margin: 100px auto 0;
+}
+
+.choose-heading {
+  font-family: five;
+  font-size: 52px;
+  font-weight: 300;
+  color: #272727;
+  text-align: center;
+  margin-top: 16px;
+  background-color: transparent;
+}
+
+.choose-heading span {
+  font-family: four;
+  color: #9C6349;
+  background-color: transparent;
+}
+
+.choose-desc {
+  font-family: second;
+  font-size: 16px;
+  color: #5c5858;
+  text-align: center;
+  line-height: 26px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+.choose-grid {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.choose-left,
+.choose-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: transparent;
+}
+
+.choose-card {
+  background-color: white;
+  border: 1px solid rgba(133, 131, 131, 0.253);
+  border-radius: 20px;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.choose-icon {
+  font-size: 28px;
+  color: #9C6349;
+  background-color: transparent;
+}
+
+.choose-card h3 {
+  font-family: five;
+  font-size: 22px;
+  font-weight: 400;
+  color: #272727;
+  background-color: transparent;
+}
+
+.choose-card p {
+  font-family: second;
+  font-size: 14px;
+  color: #5c5858;
+  line-height: 22px;
+  background-color: transparent;
+}
+
+.choose-video {
+  flex-shrink: 0;
+  width: 330px;
+  height: 360px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.choose-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: transparent;
+}
+
+
+
+.Get-Started {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 100px 60px;
+  position: relative;
+}
+
+.started-left-img {
+  flex-shrink: 0;
+  background-color: transparent;
+}
+
+.started-left-img img {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 300px;
+}
+
+.started-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  max-width: 420px;
+  background-color: transparent;
+}
+
+.started-heading {
+  font-family: five;
+  font-size: 42px;
+  font-weight: 300;
+  color: #272727;
+  line-height: 1.2;
+  background-color: transparent;
+}
+
+.started-heading span {
+  font-family: four;
+  color: #9C6349;
+  background-color: transparent;
+}
+
+.started-desc {
+  font-family: second;
+  font-size: 15px;
+  color: #5c5858;
+  line-height: 26px;
+  background-color: transparent;
+}
+
+.started-btn {
+  background-color: #9C6349;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 100px;
+  font-family: six;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.started-btn:hover {
+  background-color: #B47A5F;
+}
+
+.started-right-img {
+  flex-shrink: 0;
+  background-color: transparent;
+}
+
+.started-right-img img {
+  width: 450px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: none;
+  margin-top: 300px;
+}
+
+
+
+
+
+.Testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  overflow: hidden;
+}
+
+.testimonial-heading {
+  font-family: five;
+  font-size: 45px;
+  font-weight: 300;
+  color: #272727;
+  text-align: center;
+  margin-top: 16px;
+  background-color: transparent;
+}
+
+.testimonial-heading span {
+  font-family: four;
+  color: #9C6349;
+  background-color: transparent;
+}
+
+.testimonial-sub {
+  font-family: second;
+  font-size: 15px;
+  color: #5c5858;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+.testimonial-wrapper {
+  width: 100vw;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.testimonial-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+}
+
+.track-right {
+  animation: scrollRight 30s linear infinite;
+}
+
+.track-left {
+  animation: scrollLeft 30s linear infinite;
+}
+
+.review-card {
+  background-color: white;
+  border: 1px solid rgba(228, 221, 221, 0.6);
+  border-radius: 20px;
+  padding: 28px;
+  width: 300px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.review-stars {
+  color: #869E4D;
+  font-size: 18px;
+  background-color: transparent;
+  letter-spacing: 2px;
+}
+
+.review-text {
+  font-family: second;
+  font-size: 14px;
+  color: #5c5858;
+  line-height: 22px;
+  background-color: transparent;
+}
+
+.review-person {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: transparent;
+}
+
+.review-person img {
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  object-fit: cover;
+  border: none;
+}
+
+.review-person b {
+  font-family: five;
+  font-size: 15px;
+  color: #272727;
+  background-color: transparent;
+}
+
+.review-person p {
+  font-family: second;
+  font-size: 13px;
+  color: #5c5858;
+  background-color: transparent;
+}
+
+.review-person div {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+
+
+
+.Blog-Section {
+  padding: 100px 60px 60px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.blog-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background-color: transparent;
+}
+
+.blog-heading {
+  font-family: five;
+  font-size: 40px;
+  font-weight: 300;
+  color: #272727;
+  margin-top: 12px;
+  background-color: transparent;
+}
+
+.blog-heading span {
+  font-family: four;
+  color: #9C6349;
+  background-color: transparent;
+}
+
+.blog-btn {
+  background-color: #9C6349;
+  color: white;
+  border: none;
+  padding: 14px 18px;
+  border-radius: 100px;
+  font-family: six;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  margin-top: 30px;
+}
+
+.blog-btn:hover {
+  background-color: #B47A5F;
+}
+
+.blog-cards {
+  display: flex;
+  gap: 20px;
+  background-color: transparent;
+}
+
+.blog-card {
+  flex: 1;
+  background-color: white;
+  border: 1px solid rgba(228, 221, 221, 0.6);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 24px;
+}
+
+.blog-img {
+  position: relative;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-img1 {
+  background-image: url(https://framerusercontent.com/images/UIM5QQ70plrjLoloMduO12h0UCo.jpg?scale-down-to=512&width=1920&height=1200%20512w,https://framerusercontent.com/images/UIM5QQ70plrjLoloMduO12h0UCo.jpg?scale-down-to=1024&width=1920&height=1200%201024w,https://framerusercontent.com/images/UIM5QQ70plrjLoloMduO12h0UCo.jpg?width=1920&height=1200%201920w);
+}
+
+.blog-img2 {
+  background-image: url(https://framerusercontent.com/images/ygoJl2pvLzD8KGY9rkpcRiTABec.jpg?scale-down-to=512&width=1920&height=1200);
+}
+
+.blog-img3 {
+  background-image: url(https://framerusercontent.com/images/gonzS6HTnj7BGbW2RXbP777bcsc.jpg?scale-down-to=512&width=1920&height=1200);
+}
+
+.blog-tag {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background-color: white;
+  border-radius: 100px;
+  padding: 4px 14px;
+  font-family: second;
+  font-size: 13px;
+  color: #272727;
+}
+
+.blog-card h3 {
+  font-family: five;
+  font-size: 18px;
+  font-weight: 400;
+  color: #272727;
+  padding: 0 20px;
+  line-height: 26px;
+  background-color: transparent;
+}
+
+.blog-card p {
+  font-family: second;
+  font-size: 13px;
+  color: #5c5858;
+  padding: 0 20px;
+  background-color: transparent;
+}
+
+/* ===========================
+   INSTAGRAM
+=========================== */
+
+.Instagram-Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 60px;
+  gap: 20px;
+}
+
+.insta-heading {
+  font-family: five;
+  font-size: 38px;
+  font-weight: 300;
+  color: #272727;
+  text-align: center;
+  background-color: transparent;
+}
+
+.insta-heading span {
+  font-family: four;
+  color: #9C6349;
+  background-color: transparent;
+}
+
+.insta-grid {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  background-color: transparent;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.insta-grid img {
+  width: 230px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: none;
+}
+
+.insta-btn {
+  background-color: #9C6349;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 100px;
+  font-family: six;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.insta-btn:hover {
+  background-color: #B47A5F;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.Footer {
+  background-color: transparent;
+  border: 1px solid rgba(228, 221, 221, 0.6);
+  border-radius: 24px;
+  padding: 50px 60px 30px;
+  max-width: 1000px;
+  margin: 40px auto 20px;
+}
+
+.footer-inner {
+  display: flex;
+  gap: 70px;
+  background-color: transparent;
+}
+
+.footer-brand {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: transparent;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+}
+
+.footer-logo img {
+  width: 170px;
+  height: auto;
+  border-radius: 100px;
+}
+
+.footer-brand p {
+  font-family: second;
+  font-size: 14px;
+  color: #5c5858b7;
+  line-height: 22px;
+  background-color: transparent;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 16px;
+  background-color: transparent;
+}
+
+.footer-socials i {
+  font-size: 20px;
+  color: #9C6349;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: transparent;
+}
+
+.footer-col h4 {
+  font-family: five;
+  font-size: 16px;
+  color: #272727;
+  font-weight: 500;
+  margin-bottom: 4px;
+  background-color: transparent;
+}
+
+.footer-col a {
+  font-family: second;
+  font-size: 13px;
+  color: #5c5858;
+  text-decoration: none;
+  background-color: transparent;
+  transition: color 0.2s ease;
+}
+
+.footer-col a:hover {
+  color: #9C6349;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(228, 221, 221, 0.6);
+  margin-top: 40px;
+  padding-top: 20px;
+  background-color: transparent;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-bottom p {
+  font-family: second;
+  font-size: 11px;
+  color: #5c5858;
+  background-color: transparent;
+}
+
+
+
+@media (max-width: 1200px) {
+  .Meet-Founder {
+    max-width: 90%;
+    gap: 30px;
+  }
+
+  .Why-Choose {
+    max-width: 90%;
+    padding: 0 30px;
+  }
+
+  .Blog-Section {
+    max-width: 90%;
+    padding: 80px 30px 60px;
+  }
+
+  .Footer {
+    max-width: 90%;
+    padding: 50px 40px 30px;
+  }
+
+  .footer-inner {
+    gap: 40px;
+  }
+
+  .Get-Started {
+    padding: 80px 40px;
+  }
+
+  .started-left-img img {
+    width: 320px;
+    height: 280px;
+    margin-bottom: 240px;
+  }
+
+  .started-right-img img {
+    width: 360px;
+    height: 280px;
+    margin-top: 240px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  
+  .Fitness-Studio {
+    margin-top: 140px;
+    padding: 0 24px;
+  }
+
+  .Fitness h1 {
+    font-size: 48px;
+  }
+
+  .Fitness h1 img {
+    height: 54px;
+    width: 110px;
+  }
+
+  .Fitness-p p {
+    font-size: 16px;
+  }
+
+  
+  .main-image {
+    height: 70vh;
+    margin-top: 80px;
+  }
+
+  
+  .logo-p h2,
+  .logo-p h2 span {
+    font-size: 36px;
+  }
+
+  .Satisfied-Clients,
+  .Average-Rating,
+  .Years-of-Experience,
+  .Guaranteed-Results {
+    padding: 20px 30px;
+  }
+
+  
+
+  .Stronger2 {
+    margin-top: 100px;
+    margin-left: 24px;
+  }
+
+  .Strength-p {
+    margin-left: 24px;
+    padding-right: 24px;
+  }
+
+  .Strength-p p {
+    font-size: 38px;
+  }
+
+  .Nutrition-box1,
+  .Nutrition-box2,
+  .Nutrition-box3,
+  .Nutrition-box4,
+  .Nutrition-box5,
+  .Nutrition-box6 {
+    width: 480px;
+    height: 440px;
+  }
+
+  .card-overlay {
+    width: auto;
+  }
+
+  .card-overlay h3 {
+    font-size: 22px;
+  }
+
+
+  
+  .founder-image img {
+    width: 320px;
+    height: 450px;
+  }
+
+  .founder-content h2 {
+    font-size: 34px;
+  }
+
+  
+  
+  .transform-heading {
+    font-size: 38px;
+  }
+
+  .marquee-track img {
+    height: 240px;
+    width: 280px;
+  }
+
+ 
+  
+  .choose-heading {
+    font-size: 40px;
+  }
+
+  .choose-card {
+    width: 240px;
+  }
+
+  .choose-video {
+    width: 260px;
+    height: 300px;
+  }
+
+  
+  
+  .started-left-img img {
+    width: 260px;
+    height: 240px;
+    margin-bottom: 200px;
+  }
+
+  .started-right-img img {
+    width: 280px;
+    height: 240px;
+    margin-top: 200px;
+  }
+
+  .started-heading {
+    font-size: 34px;
+  }
+
+  
+  .testimonial-heading {
+    font-size: 36px;
+  }
+
+  .blog-heading {
+    font-size: 32px;
+  }
+
+  .insta-grid img {
+    width: 200px;
+    height: 190px;
+  }
+
+  .footer-inner {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .Footer {
+    padding: 40px 30px 30px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .Fitness-Studio {
+    margin-top: 110px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .Fitness h1 {
+    font-size: 36px;
+    line-height: 1.3;
+  }
+
+  .Fitness h1 img {
+    height: 44px;
+    width: 88px;
+  }
+
+  .Fitness h1 br {
+    display: none;
+  }
+
+  .Fitness-p p {
+    font-size: 15px;
+  }
+
+  .Fitness-p p br {
+    display: none;
+  }
+
+  
+  .main-image {
+    height: 55vh;
+    margin-top: 60px;
+  }
+
+
+  .logo-p h2,
+  .logo-p h2 span {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .logo-p h2 br {
+    display: none;
+  }
+
+  .four-reviews-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 90%;
+  }
+
+  .Satisfied-Clients,
+  .Average-Rating,
+  .Years-of-Experience,
+  .Guaranteed-Results {
+    padding: 16px 20px;
+    border-radius: 16px;
+  }
+
+  .Satisfied-Clients h2,
+  .Average-Rating h2,
+  .Years-of-Experience h2,
+  .Guaranteed-Results h2 {
+    font-size: 36px;
+  }
+
+  .Stronger2 {
+    margin-top: 80px;
+    margin-left: 16px;
+  }
+
+  .Strength-p {
+    margin-left: 16px;
+    padding-right: 16px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .Strength-p p {
+    font-size: 32px;
+  }
+
+  .Nutrition-box1,
+  .Nutrition-box2,
+  .Nutrition-box3,
+  .Nutrition-box4,
+  .Nutrition-box5,
+  .Nutrition-box6 {
+    width: 340px;
+    height: 400px;
+  }
+
+  .card-overlay h3 {
+    font-size: 20px;
+  }
+
+  .card-overlay p {
+    font-size: 13px;
+  }
+
+  
+  .Meet-Founder {
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+    gap: 30px;
+    margin-top: 80px;
+  }
+
+  .founder-image img {
+    width: 100%;
+    max-width: 420px;
+    height: 380px;
+  }
+
+  .founder-content {
+    width: 100%;
+  }
+
+  .founder-content h2 {
+    font-size: 30px;
+  }
+
+  .founder-desc br {
+    display: none;
+  }
+
+  .transform-heading {
+    font-size: 32px;
+  }
+
+  .transform-desc br {
+    display: none;
+  }
+
+  .marquee-track img {
+    height: 200px;
+    width: 240px;
+  }
+
+  
+  .Why-Choose {
+    padding: 0 20px;
+    margin-top: 80px;
+  }
+
+  .choose-heading {
+    font-size: 32px;
+  }
+
+  .choose-desc br {
+    display: none;
+  }
+
+  .choose-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .choose-left,
+  .choose-right {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .choose-card {
+    width: 260px;
+  }
+
+  .choose-video {
+    width: 90%;
+    max-width: 360px;
+    height: 300px;
+    order: -1;
+  }
+
+  
+  .Get-Started {
+    flex-direction: column;
+    padding: 80px 24px;
+    gap: 24px;
+  }
+
+  .started-left-img img {
+    width: 100%;
+    max-width: 400px;
+    height: 240px;
+    margin-bottom: 0;
+  }
+
+  .started-right-img img {
+    width: 100%;
+    max-width: 400px;
+    height: 240px;
+    margin-top: 0;
+  }
+
+  .started-content {
+    max-width: 100%;
+  }
+
+  .started-heading {
+    font-size: 30px;
+  }
+
+  
+  .testimonial-heading {
+    font-size: 30px;
+    padding: 0 20px;
+  }
+
+  
+  .Blog-Section {
+    padding: 80px 20px 50px;
+  }
+
+  .blog-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .blog-heading {
+    font-size: 28px;
+  }
+
+  .blog-cards {
+    flex-direction: column;
+  }
+
+  .blog-card {
+    width: 100%;
+  }
+
+  
+  .Instagram-Section {
+    padding: 60px 20px;
+  }
+
+  .insta-heading {
+    font-size: 28px;
+  }
+
+  .insta-grid img {
+    width: calc(50% - 8px);
+    height: 180px;
+  }
+
+  
+  .Footer {
+    padding: 40px 24px 24px;
+    border-radius: 16px;
+    margin: 30px 16px 16px;
+    max-width: unset;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .footer-brand {
+    width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  
+  .Fitness-Studio {
+    margin-top: 90px;
+    padding: 0 16px;
+  }
+
+  .Fitness h1 {
+    font-size: 28px;
+  }
+
+  .Fitness h1 img {
+    height: 36px;
+    width: 72px;
+    border-radius: 6px;
+  }
+
+  .Fitness-p p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .fitness-btn button {
+    width: 185px;
+    height: 46px;
+    font-size: 14px;
+  }
+
+  .small-reviews {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .small-reviews img {
+    width: 38px;
+  }
+
+  .main-image {
+    height: 45vh;
+    margin-top: 40px;
+  }
+
+  .only-logo {
+    margin-top: 60px;
+    padding: 0 16px;
+  }
+
+  .logo-p h2,
+  .logo-p h2 span {
+    font-size: 22px;
+  }
+
+  .logo-p img {
+    width: 60px;
+    margin-bottom: 20px;
+  }
+
+  .four-reviews-box {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    width: 94%;
+  }
+
+  .Satisfied-Clients h2,
+  .Average-Rating h2,
+  .Years-of-Experience h2,
+  .Guaranteed-Results h2 {
+    font-size: 28px;
+  }
+
+  .Satisfied-Clients p,
+  .Average-Rating p,
+  .Years-of-Experience p,
+  .Guaranteed-Results p {
+    font-size: 12px;
+  }
+
+  
+  .Stronger2 {
+    margin-top: 60px;
+    margin-left: 12px;
+  }
+
+  .Strength-p {
+    margin-left: 12px;
+    padding-right: 12px;
+  }
+
+  .Strength-p p {
+    font-size: 26px;
+  }
+
+  .Nutrition-box1,
+  .Nutrition-box2,
+  .Nutrition-box3,
+  .Nutrition-box4,
+  .Nutrition-box5,
+  .Nutrition-box6 {
+    width: 280px;
+    height: 360px;
+    border-radius: 20px;
+  }
+
+  .card-overlay {
+    padding: 16px 18px;
+    border-radius: 12px;
+  }
+
+  .card-overlay h3 {
+    font-size: 18px;
+  }
+
+  .card-overlay p {
+    font-size: 12px;
+  }
+
+  
+  .Meet-Founder {
+    max-width: 95%;
+    margin-top: 60px;
+  }
+
+  .founder-image img {
+    height: 300px;
+  }
+
+  .founder-content {
+    padding: 16px 20px;
+  }
+
+  .founder-content h2 {
+    font-size: 26px;
+  }
+
+  .founder-desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .quick-facts li {
+    font-size: 14px;
+  }
+
+  
+  .transform-heading {
+    font-size: 26px;
+    padding: 0 16px;
+  }
+
+  .transform-desc {
+    font-size: 14px;
+    padding: 0 16px;
+  }
+
+  .marquee-track img {
+    height: 170px;
+    width: 200px;
+    border-radius: 12px;
+  }
+
+  .choose-heading {
+    font-size: 26px;
+  }
+
+  .choose-desc {
+    font-size: 14px;
+  }
+
+  .choose-left,
+  .choose-right {
+    flex-direction: column;
+  }
+
+  .choose-card {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .choose-video {
+    height: 240px;
+  }
+
+  
+  .Get-Started {
+    padding: 60px 16px;
+  }
+
+  .started-heading {
+    font-size: 26px;
+  }
+
+  .started-desc {
+    font-size: 14px;
+  }
+
+  
+  .testimonial-heading {
+    font-size: 26px;
+  }
+
+  .review-card {
+    width: 260px;
+    padding: 20px;
+  }
+
+  
+  .Blog-Section {
+    padding: 60px 16px 40px;
+  }
+
+  .blog-heading {
+    font-size: 24px;
+  }
+
+  .blog-img {
+    height: 160px;
+  }
+
+  
+  .Instagram-Section {
+    padding: 50px 16px;
+  }
+
+  .insta-heading {
+    font-size: 24px;
+  }
+
+  .insta-grid img {
+    width: calc(50% - 8px);
+    height: 150px;
+    border-radius: 14px;
+  }
+
+  .footer-logo img {
+    width: 130px;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .Fitness h1 {
+    font-size: 24px;
+  }
+
+  .Fitness h1 img {
+    height: 30px;
+    width: 60px;
+  }
+
+  .logo-p h2,
+  .logo-p h2 span {
+    font-size: 19px;
+  }
+
+  .four-reviews-box {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Satisfied-Clients h2,
+  .Average-Rating h2,
+  .Years-of-Experience h2,
+  .Guaranteed-Results h2 {
+    font-size: 24px;
+  }
+
+  .Nutrition-box1,
+  .Nutrition-box2,
+  .Nutrition-box3,
+  .Nutrition-box4,
+  .Nutrition-box5,
+  .Nutrition-box6 {
+    width: 240px;
+    height: 320px;
+  }
+
+  .insta-grid img {
+    width: calc(50% - 6px);
+    height: 130px;
+  }
+
+  .choose-card {
+    max-width: 300px;
+  }
+
+  .review-card {
+    width: 230px;
+  }
+
+  .transform-heading,
+  .choose-heading,
+  .testimonial-heading,
+  .started-heading {
+    font-size: 22px;
+  }
+}

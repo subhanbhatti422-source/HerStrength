@@ -1,0 +1,151 @@
+.Fitness-Studio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 100px; */
+}
+
+.main-image {
+  background-image: url(../assets/images/imagegym.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  margin-top: 120px;
+  background-size: cover;
+}
+
+.Stronger3 {
+  background-color: #FAF5F0;
+  color: #000000;
+  width: 100px;
+  height: 32px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(110, 107, 107, 0.274);
+  gap: 4px;
+  text-align: center;
+
+}
+
+.Stronger3 img {
+  height: 15px;
+  width: auto;
+}
+
+.Stronger3 p {
+  color: #4A4A4C;
+  font-size: 13px;
+  font-family: second;
+  /* text-align: center; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Fitness-Studio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 130px;
+  padding: 0 20px;
+}
+
+.main-image {
+  background-image: url(../assets/images/imagegym.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  margin-top: 120px;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.Stronger3 {
+  background-color: #FAF5F0;
+  color: #000000;
+  width: 100px;
+  height: 32px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(110, 107, 107, 0.274);
+  gap: 4px;
+  text-align: center;
+}
+
+.Stronger3 img {
+  height: 15px;
+  width: auto;
+}
+
+.Stronger3 p {
+  color: #4A4A4C;
+  font-size: 13px;
+  font-family: second;
+}
+
+@media (max-width: 1024px) {
+  .Fitness-Studio {
+    margin-top: 110px;
+  }
+
+  .main-image {
+    height: 70vh;
+    margin-top: 80px;
+  }
+   .Meet-Founder2{
+  display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .Fitness-Studio {
+    margin-top: 90px;
+  }
+  .Meet-Founder2{
+  display: flex;
+    flex-direction: column;
+  }
+  .main-image {
+    height: 55vh;
+    margin-top: 60px;
+    border-radius: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Fitness-Studio {
+    margin-top: 80px;
+  }
+ .Meet-Founder2{
+  display: flex;
+    flex-direction: column;
+  }
+  .main-image {
+    height: 45vh;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,92 @@
+.Meet-Founder2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0 40px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.founder-image2 {
+  flex-shrink: 0;
+}
+
+.founder-image2 img {
+  width: 470px;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: none;
+}
+
+.founder-desc2 {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: second;
+  color: #5c5858e5;
+}
+
+.founder-desc2 br {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .Meet-Founder2 {
+    gap: 30px;
+    padding: 0 30px;
+  }
+
+  .founder-image2 img {
+    width: 360px;
+    height: 430px;
+  }
+
+  .founder-desc2 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Meet-Founder2 {
+    flex-direction: column;
+    padding: 0 24px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    gap: 28px;
+  }
+
+  .founder-image2 img {
+    width: 100%;
+    max-width: 480px;
+    height: 380px;
+  }
+
+  .founder-desc2 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Meet-Founder2 {
+    padding: 0 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 22px;
+  }
+
+  .founder-image2 img {
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  .founder-desc2 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
